@@ -7,7 +7,9 @@
     "test": "test"
   },
   "dependencies": {
-    "bignumber.js": "^4.1.0"
+    "@truffle/hdwallet-provider": "^1.1.0",
+    "bignumber.js": "^4.1.0",
+    "truffle-assertions": "^0.9.2"
   },
   "devDependencies": {
     "truffle": "^4.1.14"
