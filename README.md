@@ -1,15 +1,14 @@
-# ERC-1155 Reference Implementation
-www.enjincoin.io
+ERC 1155 Token used for Grunt Attack Game. 
+Token implements storage of player score and upgrades, and exchange between the two.
+Player upgrades are only attainable in exchange for score tokens.
 
-This is a work-in-progress implementation of ERC-1155 based on the discussions in the [EIP-1155 issue thread](https://github.com/ethereum/EIPs/issues/1155).
+Run requerments : 
+-Node >v10.*
+-Truffle
 
-Requirements:
-* Solidity 0.4.24
+Running procedure (Windows 10): 
+-import Metamask secret phrase to .secret
+-set up infura id-s in truffle.config
+-using PowerShell, position in token folder
+-run "truffle migrate --network ropsten"
 
-## Setup
-Run `npm install` in the root directory.
-
-## Unit Tests
-Run `npm install -g truffle` to install [Truffle framework](http://truffleframework.com/docs/getting_started/installation)
-
-Run `truffle test` to run the unit tests.
